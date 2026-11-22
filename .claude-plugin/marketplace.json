@@ -3,23 +3,16 @@
   "owner": { "name": "design02-droid" },
   "plugins": [
     {
-      "name": "example-bundle",
-      "description": "Brief description of the bundled skills.",
-      "author": { "name": "Author Name" },
+      "name": "pr-review",
+      "description": "Reviews pull requests for bugs, security issues, and test coverage, and outputs markdown review comments.",
+      "author": { "name": "design02-droid" },
       "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/example-org/sdk.git",
-        "path": "packages/agent-skills",
-        "ref": "main"
-      },
+      "source": "./plugins/pr-review",
       "strict": false,
       "skills": [
-        "./skill-a",
-        "./skill-b",
-        "./skill-c"
+        "./skills/pr-review"
       ],
-      "homepage": "https://github.com/example-org/sdk"
+      "homepage": "https://github.com/design02-droid/verbose-octo-doodle"
     }
   ]
 }
