@@ -48,7 +48,7 @@ For each candidate finding, re-read the code and confirm it is real: trace the i
 
 Write the review in markdown in exactly this shape:
 
-```markdown
+````markdown
 ## PR review: <PR title, branch, or "local changes">
 
 **Summary:** <one or two sentences on what the change does and the overall verdict>
@@ -75,7 +75,7 @@ Write the review in markdown in exactly this shape:
 
 ### Not reviewed
 <Anything you skipped or could not check, e.g. generated files, a test suite you could not run. Omit if nothing.>
-```
+````
 
 Rules for comments:
 
