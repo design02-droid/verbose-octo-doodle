@@ -1,14 +1,27 @@
 {
   "extraKnownMarketplaces": {
     "ponytail": {
-      "source": { "source": "github", "repo": "DietrichGebert/ponytail" }
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
     },
     "fullstack-dev-skills": {
-      "source": { "source": "github", "repo": "jeffallan/claude-skills" }
+      "source": {
+        "source": "github",
+        "repo": "jeffallan/claude-skills"
+      }
+    },
+    "motionsites": {
+      "source": {
+        "source": "github",
+        "repo": "Motionsites-AI/claude-skill"
+      }
     }
   },
   "enabledPlugins": {
     "ponytail@ponytail": true,
-    "fullstack-dev-skills@fullstack-dev-skills": true
+    "fullstack-dev-skills@fullstack-dev-skills": true,
+    "motionsites-web-builder@motionsites": true
   }
 }
