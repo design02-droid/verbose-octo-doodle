@@ -2,9 +2,13 @@
   "extraKnownMarketplaces": {
     "ponytail": {
       "source": { "source": "github", "repo": "DietrichGebert/ponytail" }
+    },
+    "fullstack-dev-skills": {
+      "source": { "source": "github", "repo": "jeffallan/claude-skills" }
     }
   },
   "enabledPlugins": {
-    "ponytail@ponytail": true
+    "ponytail@ponytail": true,
+    "fullstack-dev-skills@fullstack-dev-skills": true
   }
 }
